@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.container {
+  width: 576px;
+  padding: 30px;
+  background-color: #4b4848;
+  border-radius: 15px;
+}
+.postimage img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  background-color: #d8d8d8;
+}
+.postacoes {
+  padding: 15%;
+  display: flex;
+  align-items: center;
+}
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.material-symbols-outlined {
+  font-size: 32px;
+  color: yellow;
+  margin-top: -10px;
+  margin-left: 500px;
+  background-color: #e1b526;
+}
+.controls i {
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.artista {
+  font-size: 24px;
+  color: #aaa;
+}
+.progress-container {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  font-size: 20px;
+  color: #b3b3b3;
+  margin: 0 10px;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  height: 4px;
+  background-color: #444444;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.progress {
+  height: 4px;
+  background-color: #fca311;
+  border-radius: 2px;
+  width: 20px;
+}
+/* Não sabia fazer essa barra pesquisei uns videos para saber colocar... */
